@@ -1,0 +1,8 @@
+function git-post {
+  if [ -z "$1" ]
+    then
+      git commit -m 'post: ' -e
+    else
+      git commit -m "post: $1"
+  fi
+}
