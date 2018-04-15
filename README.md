@@ -13,7 +13,7 @@ Or if you feel like doing it the old-fashioned way:
 
 ```shell
 mkdir -p ~/src
-git clone git://github.com/alexrochas/zsh-git-tdd-semantic-commits.git ~/src/zsh-git-semantic-commits
+git clone git://github.com/alexrochas/zsh-git-tdd-semantic-commits.git ~/src/zsh-git-tdd-semantic-commits
 print 'source ~/src/zsh-git-tdd-semantic-commits/zsh-git-tdd-semantic-commits.plugin.zsh' >> ~/.zshrc
 ```
 
