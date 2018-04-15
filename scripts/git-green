@@ -1,0 +1,8 @@
+function git-green {
+  if [ -z "$1" ]
+    then
+      git commit -m 'green: ' -e
+    else
+      git commit -m "green: $1"
+  fi
+}

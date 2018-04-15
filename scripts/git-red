@@ -1,0 +1,8 @@
+function git-red {
+  if [ -z "$1" ]
+    then
+      git commit -m 'red: ' -e
+    else
+      git commit -m "red: $1"
+  fi
+}
